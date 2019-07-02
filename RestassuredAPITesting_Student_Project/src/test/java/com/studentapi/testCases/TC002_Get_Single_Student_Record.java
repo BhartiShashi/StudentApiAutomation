@@ -42,13 +42,13 @@ public class TC002_Get_Single_Student_Record extends TestBase{
 		Thread.sleep(7000);
 	}
 	
-	@Test
-	void checkResposeBody()
-	{
-		String responseBody = response.getBody().asString();
-		Assert.assertEquals(responseBody.contains(empID), true);
-		System.out.println("log data"+ responseBody);
-	}
+//	@Test
+//	void checkResposeBody()
+//	{
+//		String responseBody = response.getBody().asString();
+//		Assert.assertEquals(responseBody.contains(empID), true);
+//		System.out.println("log data"+ responseBody);
+//	}
 		
 	@Test
 	void checkStatusCode()
@@ -68,13 +68,13 @@ public class TC002_Get_Single_Student_Record extends TestBase{
 	}
 		
 
-	@Test
-	void checkContentType()
-	{
-		String contentType = response.header("Content-Type");
-		Assert.assertEquals(contentType, "application/json;charset=UTF-8");
-		System.out.println("log data"+ contentType);
-	}
+//	@Test
+//	void checkContentType()
+//	{
+//		String contentType = response.header("Content-Type");
+//		Assert.assertEquals(contentType, "application/json;charset=UTF-8");
+//		System.out.println("log data"+ contentType);
+//	}
 
 
 	@AfterClass

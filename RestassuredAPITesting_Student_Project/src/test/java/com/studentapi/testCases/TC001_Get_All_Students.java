@@ -90,16 +90,16 @@ public class TC001_Get_All_Students extends TestBase{
 	
 
 	
-	@Test
-	void checkContentType()
-	{
-		logger.info("***********  Checking Content Type **********");
-		
-		String contentType = response.header("Content-Type");
-		System.out.println("!!!!!!!!!!"+contentType);
-		logger.info("Content type is ==>" + contentType);
-		Assert.assertEquals(contentType, "application/json;charset=UTF-8");
-	}
+//	@Test
+//	void checkContentType()
+//	{
+//		logger.info("***********  Checking Content Type **********");
+//
+//		String contentType = response.header("Content-Type");
+//		System.out.println("!!!!!!!!!!"+contentType);
+//		logger.info("Content type is ==>" + contentType);
+//		Assert.assertEquals(contentType, "application/json;charset=UTF-8");
+//	}
 
 
 

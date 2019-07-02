@@ -14,7 +14,7 @@ public class TestBase {
 	public static RequestSpecification httpRequest;
 	public static Response response;
 	public String empID="12"; //Hard coded - Input for Get details of Single Employee & update employee
-	
+	public String stdName="shashiH";
 	
 	public Logger logger;
 	

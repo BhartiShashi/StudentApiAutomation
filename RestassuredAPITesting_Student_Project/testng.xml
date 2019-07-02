@@ -5,10 +5,11 @@
 <listeners>
 	<listener class-name="com.studentapi.utilities.Listeners" />
 </listeners>
-	<test thread-count="5" name="EmployeesRestAPITest">
+	<test thread-count="6" name="EmployeesRestAPITest">
 		<classes>
 			<class name="com.studentapi.testCases.TC001_Get_All_Students" />
 			<class name="com.studentapi.testCases.TC002_Get_Single_Student_Record" />
+			<class name="com.studentapi.testCases.TC006_Get_Single_Student_Record_by_Name" />
 			<class name="com.studentapi.testCases.TC003_Post_Student_Record" />
 			<class name="com.studentapi.testCases.TC004_Put_Student_Record" />
 			<class name="com.studentapi.testCases.TC005_Delete_Student_Record" />
